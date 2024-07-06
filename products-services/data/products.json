@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Camiseta Campeón Clásica",
+    "description": "Una camiseta de algodón suave y transpirable con el icónico logo de Campeón bordado en el pecho. Perfecta para uso casual o deportivo.",
+    "price": 29.99,
+    "category": "Ropa Deportiva",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "Sudadera con capucha Campeón Retro",
+    "description": "Una sudadera con capucha cómoda y cálida con un diseño retro y el logo de Campeón estampado en la parte delantera. Ideal para climas fríos o para un look informal.",
+    "price": 44.95,
+    "category": "Ropa Deportiva",
+    "stock": 35
+  },
+  {
+    "id": 3,
+    "name": "Zapatillas deportivas Campeón Runner",
+    "description": "Zapatillas ligeras y transpirables diseñadas para correr o para uso diario. Con una suela acolchada para mayor comodidad y soporte.",
+    "price": 69.99,
+    "category": "Calzado Deportivo",
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "name": "Mochila multiusos Campeón Explorer",
+    "description": "Una mochila versátil y resistente perfecta para viajes, senderismo o uso diario. Cuenta con múltiples compartimentos para organizar tus pertenencias.",
+    "price": 35.99,
+    "category": "Accesorios Deportivos",
+    "stock": 42
+  },
+  {
+    "id": 5,
+    "name": "Botella de agua deportiva Campeón Eco",
+    "description": "Una botella de agua reutilizable y ecológica fabricada con materiales sostenibles. Mantiene tus bebidas frías o calientes durante horas.",
+    "price": 19.95,
+    "category": "Accesorios Deportivos",
+    "stock": 60
+  }
+]

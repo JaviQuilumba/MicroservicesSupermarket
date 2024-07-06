@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1234567890",
+    "direccion": "123 Main Street, Anytown, CA 12345"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+9876543210",
+    "address": "456 Elm Street, Anytown, CA 12345"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "phone": "+54123987",
+    "address": "789 Oak Street, Anytown, CA 12345"
+  },
+  {
+    "id": 4,
+    "name": "Olivia Jones",
+    "email": "olivia.jones@example.com",
+    "phone": "+336789012",
+    "address": "1011 Pine Street, Anytown, CA 12345"
+  },
+  {
+    "id": 5,
+    "name": "William Miller",
+    "email": "william.miller@example.com",
+    "phone": "+81456023",
+    "address": "1213 Maple Street, Anytown, CA 12345"
+  }
+]
