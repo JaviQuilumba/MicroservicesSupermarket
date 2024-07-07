@@ -1,14 +1,14 @@
-version: "3.8"
+version: "3.9"
 services:
   service-email:
    build: ./email-service
    ports:
-     - 8094:3004
+     - 8064:3004
   service-clients:
    build: ./client-services
    ports:
-     - 8095:3005
+     - 8065:3005
   service-products:
    build: ./products-services
    ports:
-     - 8096:3006
+     - 8066:3006
