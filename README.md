@@ -27,10 +27,10 @@ Command to shut down the container:
 To use the project you must execute the commands described in the previous point. When you run it in the terminal, you will be able to find URLs that you can open locally and you will be able to see the different services it offers, such as listing the products, listing the customers, and generating an email.
 </p>
 
-![Captura de pantalla 2024-07-06 130717](https://github.com/JaviQuilumba/MicroservicesSupermarket/assets/167824357/f78ac343-fcc8-4893-9cfa-77254e8e8a0f)
-![Captura de pantalla 2024-07-06 121214](https://github.com/JaviQuilumba/MicroservicesSupermarket/assets/167824357/b1415265-3b3e-4269-8031-ea8d12fcec2d)
-![Captura de pantalla 2024-07-06 121555](https://github.com/JaviQuilumba/MicroservicesSupermarket/assets/167824357/12ae61b9-f768-4d74-9425-c607dffc9337)
-![Captura de pantalla 2024-07-06 121637](https://github.com/JaviQuilumba/MicroservicesSupermarket/assets/167824357/b981940d-095a-4a43-a12b-8768f9ec8358)
+![Captura de pantalla 2024-07-06 130717](https://github.com/JaviQuilumba/MicroservicesSupermarket/assets/167824357/8ba730c5-f177-40da-bb6d-88cac1a8975a)
+![Captura de pantalla 2024-07-06 121214](https://github.com/JaviQuilumba/MicroservicesSupermarket/assets/167824357/978c04c7-ad6b-4b0f-8748-ebd0754779a2)
+![Captura de pantalla 2024-07-06 121555](https://github.com/JaviQuilumba/MicroservicesSupermarket/assets/167824357/34c668e4-88eb-4f3e-8274-26cff4bea7e7)
+![Captura de pantalla 2024-07-06 121637](https://github.com/JaviQuilumba/MicroservicesSupermarket/assets/167824357/c1b070b4-fc0b-4e23-b68b-9659dba26e62)
 
 In the screenshots you can see how it works.
 
