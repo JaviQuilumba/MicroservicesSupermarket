@@ -5,7 +5,7 @@ The microservices project for a streaming platform tries to simulate a microserv
 Dockerfile and Docker-compose are also used for creating Docker images.
 </p>
 
-#### How to install and run the project? :tw-1f527:
+#### How to install and run the project? :wrench:
 Node.js technologies are used with the Express.js framework, as well as Dockerfile and Docker-compose.
 The project must first be downloaded or cloned:
 - `git clone https://github.com/JaviQuilumba/MicroservicesSupermarket.git`
@@ -22,7 +22,7 @@ Steps to build Docker-compose:
 Command to shut down the container:
 - `docker-compose down`
 
-#### How to use the project :tw-1f52c:
+### How to use the project :white_check_mark:
 <p>
 To use the project you must execute the commands described in the previous point. When you run it in the terminal, you will be able to find URLs that you can open locally and you will be able to see the different services it offers, such as listing the products, listing the customers, and generating an email.
 </p>
@@ -34,10 +34,10 @@ To use the project you must execute the commands described in the previous point
 
 In the screenshots you can see how it works.
 
-####  Collaborators :tw-1f466:
+####  Collaborators  :boy:
 Carlos Daniel Tapia Ortiz
 https://github.com/cdto17
 
-####  License :tw-1f4c4: 
+####  License :page_facing_up:
 This project is licensed under the (AFL-3.0) License - see the [LICENSE](https://opensource.org/license/afl-3-0-php) file for details.
 
