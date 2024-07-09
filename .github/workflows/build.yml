@@ -71,6 +71,6 @@ jobs:
 
     - name: Run new containers
       run: |
-        ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker run -d --name products-services-aws -p 8074:3004 ${{ secrets.DOCKERHUB_USERNAME }}/products-services:latest'
-        ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker run -d --name email-service-aws -p 8073:3003 ${{ secrets.DOCKERHUB_USERNAME }}/email-service:latest'
-        ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker run -d --name client-services-aws -p 8075:3005 ${{ secrets.DOCKERHUB_USERNAME }}/client-services:latest'
+        ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker run -d --name products-services-aws -p 8066:3006 ${{ secrets.DOCKERHUB_USERNAME }}/products-services:latest'
+        ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker run -d --name email-service-aws -p 8064:3004 ${{ secrets.DOCKERHUB_USERNAME }}/email-service:latest'
+        ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker run -d --name client-services-aws -p 8065:3005 ${{ secrets.DOCKERHUB_USERNAME }}/client-services:latest'
