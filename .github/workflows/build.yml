@@ -50,7 +50,7 @@ jobs:
 
     steps:
 
-    - name: Set permissions for private key
+    - name: Set permissions for private key aws
       run: |
         echo "${{ secrets.AWS_PRIVATE_KEY }}" > key.pem
         chmod 600 key.pem
