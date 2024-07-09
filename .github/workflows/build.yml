@@ -43,6 +43,7 @@ jobs:
     - name: Execute Docker Compose
       run: |
         docker-compose -f ./docker/docker-compose.yml up -d
+        
   deploy-AWS:
     needs: [build-and-push]  
     runs-on: ubuntu-latest
