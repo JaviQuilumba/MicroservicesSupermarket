@@ -20,7 +20,6 @@ The project must first be downloaded or cloned:
 The following steps are to install dependencies and run the project:
 - `npm init -y`
 - `npm install express`
-- `npm start`
 
 Steps to build Docker-compose:
 - `docker-compose build`
