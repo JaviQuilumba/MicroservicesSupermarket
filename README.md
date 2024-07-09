@@ -1,8 +1,15 @@
 # Microservices for a supermarket
 
 <p>
-The microservices project for a streaming platform tries to simulate a microservices architecture, it has three microservices: product list services, customer services and email services. Each of these microservices has independent functions such as listing products, listing customers, and sending emails. It should be noted that this is just a project, it is just a simulation of microservices.
-Dockerfile and Docker-compose are also used for creating Docker images.
+The microservices project for a supermarket platform that tries to simulate a microservices architecture has three microservices: product listing services, customer services and email sending services. Each of these microservices has independent functions such as:
+
+- **List Products:** Gets a list of products that the supermarket contains in Json format.
+
+- **List customers:** obtains the customers who are registered in the supermarket.
+
+- **Email sending:** send welcome emails to customers starting from Gmail service.
+
+It should be noted that this is just a microservices project. Dockerfile and Docker-compose are also used to create Docker images. Git Actions automates the creation of images, uploading them to Docker Hub and then deploying them to EC2.
 </p>
 
 #### How to install and run the project? :wrench:
