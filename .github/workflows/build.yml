@@ -70,6 +70,10 @@ jobs:
         ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker stop client-services-aws || true'
         ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker rm client-services-aws || true'
 
+    - name: Remove old Docker images
+      run: |
+        ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker image prune -f'
+
     - name: Run new containers
       run: |
         ssh -o StrictHostKeyChecking=no -i key.pem ec2-user@${{ secrets.EC2_HOST }} 'sudo docker run -d --name products-services-aws -p 8066:3006 ${{ secrets.DOCKERHUB_USERNAME }}/products-services:latest'
