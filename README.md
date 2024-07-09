@@ -12,7 +12,7 @@ The microservices project for a supermarket platform that tries to simulate a mi
 It should be noted that this is just a microservices project. Dockerfile and Docker-compose are also used to create Docker images. Git Actions automates the creation of images, uploading them to Docker Hub and then deploying them to EC2.
 </p>
 
-#### How to install and run the project? :wrench:
+### How to install and run the project? :wrench:
 Node.js technologies are used with the Express.js framework, as well as Dockerfile and Docker-compose.
 The project must first be downloaded or cloned:
 - `git clone https://github.com/JaviQuilumba/MicroservicesSupermarket.git`
@@ -46,10 +46,10 @@ http:localhost:8096/api/products
 
 http:localhost:8094/api/send-welcome-email
 
-####  Collaborators  :boy:
+###  Collaborators  :boy:
 Carlos Daniel Tapia Ortiz
 https://github.com/cdto17
 
-####  License :page_facing_up:
+###  License :page_facing_up:
 This project is licensed under the (AFL-3.0) License - see the [LICENSE](https://opensource.org/license/afl-3-0-php) file for details.
 
