@@ -18,8 +18,7 @@ The project must first be downloaded or cloned:
 - `git clone https://github.com/JaviQuilumba/MicroservicesSupermarket.git`
 
 The following steps are to install dependencies and run the project:
-- `npm init -y`
-- `npm install express`
+- `npm install`
 
 Steps to build Docker-compose:
 - `docker-compose build`
@@ -44,6 +43,23 @@ http:localhost:8095/api/clients
 http:localhost:8096/api/products
 
 http:localhost:8094/api/send-welcome-email
+
+## Warning:
+<p>
+The above instructions are for local execution with Docker Desktop.
+To deploy to AWS EC2, the following requirements must be taken into account:
+</p>
+
+ - Cuenta en DockerHub
+ - Cuenta en AWS
+ - Creación de una instancia en AWS EC2
+
+ Since we will need the following variables stored in the GitActions for its correct execution:
+
+- secrets.EC2_HOST: IP instance.
+- secrets.DOCKERHUB_USERNAME: user of the DockerHub account.
+- secrets.DOCKERHUB_TOKEN: DockerHub login token.
+- secrets.AWS_PRIVATE_KEY: AWS generated key pair.
 
 ###  Collaborators  :boy:
 Carlos Daniel Tapia Ortiz
