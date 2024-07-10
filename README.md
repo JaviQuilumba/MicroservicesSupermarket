@@ -47,6 +47,7 @@ http:localhost:8094/api/send-welcome-email
 ## Warning:
 <p>
 The above instructions are for local execution with Docker Desktop.
+
 To deploy to AWS EC2, the following requirements must be taken into account:
 </p>
 
